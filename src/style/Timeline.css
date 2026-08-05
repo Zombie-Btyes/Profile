@@ -1,0 +1,106 @@
+/* ==========================
+   Resume Section
+========================== */
+
+#timeline {
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+  color: #f8fafc;
+}
+
+#timeline h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+#timeline section {
+  margin-bottom: 80px;
+}
+
+/* ==========================
+   Bootstrap Cards
+========================== */
+
+#timeline .card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+#timeline .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+#timeline .card-body {
+  color: #f8fafc;
+}
+
+#timeline .card-title,
+#timeline h4 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#timeline h6 {
+  color: #3b82f6 !important;
+}
+
+#timeline p,
+#timeline li,
+#timeline small {
+  color: #cbd5e1;
+}
+
+/* ==========================
+   Skills
+========================== */
+
+#timeline .list-group-item {
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  padding: 10px 0;
+}
+
+#timeline .list-group-item:not(:last-child) {
+  border-bottom: 1px solid #334155;
+}
+
+/* ==========================
+   Experience
+========================== */
+
+#timeline ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+#timeline li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width: 768px) {
+
+  #timeline {
+    padding: 60px 15px;
+  }
+
+  #timeline h2 {
+    font-size: 2rem;
+  }
+
+  #timeline .card {
+    margin-bottom: 20px;
+  }
+
+}

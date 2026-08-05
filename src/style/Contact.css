@@ -1,0 +1,130 @@
+/* ==========================
+   Contact Section
+========================== */
+
+#contact {
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #111827 0%, #0f172a 100%);
+  color: #f8fafc;
+}
+
+#contact .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+/* ==========================
+   Contact Cards
+========================== */
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.contact-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 35px;
+  text-align: center;
+  transition: all .3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,.25);
+}
+
+/* ==========================
+   Icons
+========================== */
+
+.contact-icon {
+  font-size: 3rem;
+  color: #3b82f6;
+  margin-bottom: 20px;
+}
+
+/* ==========================
+   Typography
+========================== */
+
+.contact-card h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.contact-card p {
+  color: #cbd5e1;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* ==========================
+   Social Links
+========================== */
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.social-links a {
+  color: #cbd5e1;
+  font-size: 1.7rem;
+  transition: .3s;
+}
+
+.social-links a:hover {
+  color: #3b82f6;
+  transform: translateY(-3px);
+}
+
+/* ==========================
+   Button
+========================== */
+
+.contact-card .contact-btn {
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: .3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact-card .btn:hover {
+  background: #1d4ed8;
+  color: white;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width:768px){
+
+  #contact h2{
+      font-size:2.2rem;
+  }
+
+  .contact-cards{
+      grid-template-columns:1fr;
+  }
+
+}
