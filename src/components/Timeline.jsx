@@ -3,7 +3,8 @@ import "../style/Timeline.css";
 
 export default function Timeline() {
   const technicalSkills = {
-    IT: ["Windows OS", "Microsoft Office 365", "Active Directory", "VPN", "Remote Support"],
+    IT: ["Windows OS", "Active Directory", "Microsoft Office 365", "Desktop Support", "Remote Support", "Software Installation", "Hardware Troubleshooting", "VPN", "Reimaging PC/Laptop", "Printer", "Map Share file drive", "Recreate outlook profile", "Map Share email in outlook"
+    ],
     Networking: ["TCP/IP", "DNS", "DHCP", "Network configuration", "Infrastructure Support"],
     "Web Technologies": ["HTML", "CSS", "JavaScript", "React", "Express.js", "MongoDB"],
     Tools: ["GitHub", "Visual Studio Code"]
